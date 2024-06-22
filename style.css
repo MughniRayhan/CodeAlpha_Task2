@@ -20,6 +20,7 @@
   /* height: 80vh; */
   width: 30%;
   border-radius: 0.6rem;
+  border: 2px solid #111;
 }
 input {
   border: none;
@@ -47,6 +48,10 @@ button {
   font-size: 1.2rem;
   border: none;
   box-shadow: -1px 1px 5px 3px #4d4b4b;
+  transition: all 0.5s;
+}
+button:hover {
+  box-shadow: -2px 2px 8px 5px #201f1f;
 }
 #equal {
   width: 45%;
