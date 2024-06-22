@@ -12,10 +12,18 @@ const calculate = (event) =>{
     inputDisplay.value+=selectBtn;
 
 }
+//evaluate values
+const equal = () =>{
+    const result=String(eval(inputDisplay.value));
+    inputDisplay.value=result;
+}
 
  //selectButton
  calBtn.forEach((button)=>{
      button.addEventListener("click" , calculate);
    
  })
+ eql.addEventListener("click" ,  equal);
  
+
+
