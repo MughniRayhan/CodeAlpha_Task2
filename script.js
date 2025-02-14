@@ -10,7 +10,6 @@ const calculate = (event) =>{
     const selectBtn = event.target.value;
     string+=selectBtn;
     inputDisplay.value+=selectBtn;
-
 }
 //evaluate values
 const equal = () =>{
